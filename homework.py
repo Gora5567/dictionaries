@@ -1,6 +1,6 @@
 from helpers import *
 
-
+# Create a dictionary object containing key and value pairs, display one value
 def task1():
     person = {
         "name": "Иван",
@@ -10,6 +10,7 @@ def task1():
     print(person["name"])
 
 
+# Create a dictionary object describing the computer
 def task2():
     computer = {
         "processor": "AMD Ryzen 5 5600X",
@@ -19,7 +20,3 @@ def task2():
         "os": "Ubuntu 20.04"
     }
     print(computer)
-
-
-for f in {task1, task2}:
-    run(f)

@@ -8,6 +8,5 @@ def end_task():
 
 def run(func):
     start_task()
-    func()
     end_task()
     print("\n")
